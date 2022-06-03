@@ -9,7 +9,7 @@ async function apiRequest(){
 
         console.log(data)
         document.getElementById('famName').innerText = data.Name
-        document.querySelector('img').src = data.image
+        document.querySelector('img').src = (data.image)
         document.getElementById('food').innerText = data.FavoriteFoods
         document.getElementById('location').innerText = data.Location
         for(i=0;i<data.Metamorph.length;i++){
