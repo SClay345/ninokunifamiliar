@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-size: 1.2rem;
+    background-image: url(https://i.pinimg.com/736x/0d/8b/8e/0d8b8e7c7586b21d252cdfae3d5ce60e.jpg);
+    color: rgb(182, 0, 0);
+    font-family: 'Shadows Into Light', cursive;
+}
+p, h2 {
+    color: black;
+}
+
+span {
+    color: rgb(182, 0, 0);
+}
